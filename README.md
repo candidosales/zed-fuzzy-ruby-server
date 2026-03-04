@@ -91,7 +91,7 @@ The `"..."` wildcard includes all other unspecified servers. Use `!server-name` 
 Re-run the install command to get the latest version:
 
 ```bash
-cargo install --git https://github.com/pheen/fuzzy_ruby_server
+cargo install --git https://github.com/doompling/fuzzy_ruby_server
 ```
 
 Then restart the language server in Zed via the command palette: **Editor: Restart Language Server**.
