@@ -18,7 +18,7 @@ Provided by fuzzy_ruby_server:
 Install `fuzzy_ruby_server` via Cargo:
 
 ```bash
-cargo install --git https://github.com/pheen/fuzzy_ruby_server
+cargo install --git https://github.com/doompling/fuzzy_ruby_server
 ```
 
 Verify the installation:
