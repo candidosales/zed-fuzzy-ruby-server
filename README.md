@@ -1,5 +1,7 @@
 # Fuzzy Ruby Server for Zed
 
+![open-graph](/docs/open-graph.png)
+
 A [Zed](https://zed.dev) extension that integrates [fuzzy_ruby_server](https://github.com/pheen/fuzzy_ruby_server) — a fast Ruby language server designed for large codebases.
 
 ## Features
