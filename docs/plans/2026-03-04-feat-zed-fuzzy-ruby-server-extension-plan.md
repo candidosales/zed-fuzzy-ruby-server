@@ -1,7 +1,7 @@
 ---
 title: "feat: Zed extension for fuzzy_ruby_server"
 type: feat
-status: active
+status: completed
 date: 2026-03-04
 deepened: 2026-03-04
 origin: docs/brainstorms/2026-03-04-zed-fuzzy-ruby-server-brainstorm.md
@@ -39,13 +39,13 @@ Build a thin Zed WASM extension that locates a pre-installed `fuzzy_ruby_server`
 
 ## Acceptance Criteria
 
-- [ ] Extension loads in Zed and registers a language server for Ruby files
-- [ ] `language_server_command()` finds `fuzzy` binary on PATH via `worktree.which()`
-- [ ] Users can override binary path via Zed LSP settings
-- [ ] Clear error message when binary is not found, with install instructions
-- [ ] Extension works alongside Zed's built-in Ruby support (no Tree-sitter grammar bundled)
-- [ ] README documents: installation, settings, conflict resolution with ruby-lsp/solargraph, security
-- [ ] MIT LICENSE file included
+- [x] Extension loads in Zed and registers a language server for Ruby files
+- [x] `language_server_command()` finds `fuzzy` binary on PATH via `worktree.which()`
+- [x] Users can override binary path via Zed LSP settings
+- [x] Clear error message when binary is not found, with install instructions
+- [x] Extension works alongside Zed's built-in Ruby support (no Tree-sitter grammar bundled)
+- [x] README documents: installation, settings, conflict resolution with ruby-lsp/solargraph, security
+- [x] MIT LICENSE file included
 
 ## Implementation Plan
 
